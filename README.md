@@ -39,12 +39,16 @@ The PPM aggregates context at four different pyramid scales to capture both glob
 
 The implementation follows the architecture described in the original paper:
 
+
 * **Backbone:** `ResNet-50` or `ResNet-101`
     * **Dilated Convolution (Atrous Conv):** Applied to the last two blocks (`layer3`, `layer4`) to maintain a larger spatial resolution (Output Stride = 8) without losing the receptive field.
 * **Neck (PPM):** Fuses features from four different pool scales.
 * **Head:** Final convolution layer for pixel-wise classification.
 * **Loss Function:** Standard Cross-Entropy Loss (optionally combined with Auxiliary Loss for stable training).
 
+---
+## References
+- [Zhao, Hengshuang, et al. "Pyramid scene parsing network." CVPR 2017.](https://arxiv.org/abs/1612.01105)
 ---
 <img width="437" height="356" alt="image" src="https://github.com/user-attachments/assets/ded3ee42-5ab5-46dc-a97a-144a2592c089" />
 <img width="899" height="258" alt="image" src="https://github.com/user-attachments/assets/0f229651-2c61-4285-b491-05a00025c731" />
