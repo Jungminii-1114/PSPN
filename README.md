@@ -53,3 +53,7 @@ The implementation follows the architecture described in the original paper:
 <img width="437" height="356" alt="image" src="https://github.com/user-attachments/assets/ded3ee42-5ab5-46dc-a97a-144a2592c089" />
 <img width="899" height="258" alt="image" src="https://github.com/user-attachments/assets/0f229651-2c61-4285-b491-05a00025c731" />
 
+---
+## Results
+<img width="580" height="403" alt="PSPNetwork" src="https://github.com/user-attachments/assets/7299c6f0-38de-4d00-81e3-e0fe1b9f239b" />
+
