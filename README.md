@@ -57,3 +57,5 @@ The implementation follows the architecture described in the original paper:
 ## Results
 <img width="580" height="403" alt="PSPNetwork" src="https://github.com/user-attachments/assets/7299c6f0-38de-4d00-81e3-e0fe1b9f239b" />
 
+<img width="1200" height="600" alt="training_graph" src="https://github.com/user-attachments/assets/6563c526-7381-4efe-86da-9338d4a6f605" />
+
